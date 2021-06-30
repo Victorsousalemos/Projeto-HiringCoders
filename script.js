@@ -1,38 +1,17 @@
-var myName = "Victor" //string
+//tipos de variáveis
 
-var age = 25 //number
+var myName = "Victor";
 
-var height = 1.83 //number
+let language = "Javascript";
 
-null // objeto vazio, não possui dados
-undefined //dado ou valor que não foi definido
+const pattern = "ECMAScript"
 
-var isStudent = false //boolean
+//const - constante
+//pattern - padrão
 
-//Objeto, array e function
+//hoisting - é como se o js fizesse as declarações por debaixo do panos
 
-//Objeto - mapeamento entre chaves (strings) e valores (qualquer tipo)
+//só pode inicializar uma const se tiver uma atribuição (algo entre aspas)
 
-var person ={
-  "name": "Victor", //com : e não ;
-  "age": 25
-}
-
-// arrays - conjunto de informações que representas listas ou conjuntos
-
-var students = [ "Victor", "Maria", "João"]
-
-// function - objeto que tem uma capacidade adicional, pode ser chamado ou executado
-
-function sum() {
-function sum(a,b) 
-  return a + b
-}
-
-//operador typeof - ajuda a identificar um tipo de dado dentro do js
-
-function sum(){
-  return 5 + 2
-}
-
-console.log(typeof sum)
+const myLastName = "Lemos"
+console.log(myLastName)
